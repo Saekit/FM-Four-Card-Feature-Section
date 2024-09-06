@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 const CardFeatureWrapper = styled.div`
   ${({ theme }) => css`
     min-height: 100vh;
-    background-color: ${theme.colors.grayishBlue};
+    background-color: ${theme.colors.veryLightGray};
   `}
 `;
 export default CardFeatureWrapper;
