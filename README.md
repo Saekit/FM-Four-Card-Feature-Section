@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./four-card-mobile.jpg)
-![](./four-card-desktop.jpg)
+![](./four-card-mobile.png)
+![](./four-card-desktop.png)
 
 ### Links
 
