@@ -1,12 +1,20 @@
-import { Description, IconContainer, StyledCard, Title } from "./Card.styles";
+import {
+  Description,
+  IconContainer,
+  StyledCard,
+  TextContainer,
+  Title,
+} from "./Card.styles";
 
 const Card = ({ cardContent }) => {
-  const { title, description, icon } = cardContent;
+  const { title, description, Icon, color } = cardContent;
   return (
-    <StyledCard>
-      <Title>{title}</Title>
-      <Description>{description}</Description>
-      <IconContainer>{icon}</IconContainer>
+    <StyledCard $cardColor={color}>
+      <TextContainer>
+        <Title>{title}</Title>
+        <Description>{description}</Description>
+      </TextContainer>
+      <IconContainer>{<Icon />}</IconContainer>
     </StyledCard>
   );
 };

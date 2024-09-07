@@ -7,27 +7,27 @@ const featureCards = [
   {
     title: "Supervisor",
     description: "Monitors activity to identify project roadblocks",
-    icon: SupervisorIcon,
+    Icon: SupervisorIcon,
     color: "cyan",
   },
   {
     title: "Team Builder",
     description:
       "Scans our talent network to create the optimal team for your project",
-    icon: TeamBuilder,
+    Icon: TeamBuilder,
     color: "red",
   },
   {
     title: "Karma",
     description: "Regularly evaluates our talent to ensure quality",
-    icon: KarmaIcon,
+    Icon: KarmaIcon,
     color: "orange",
   },
   {
     title: "Calculator",
     description:
       "Uses data from past projects to provide better delivery estimates",
-    icon: CalculatorIcon,
+    Icon: CalculatorIcon,
     color: "blue",
   },
 ];
