@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const StyledCard = styled.div`
+  position: relative;
   min-width: 300px;
   max-width: 380px;
   height: 220px;
@@ -11,7 +12,17 @@ export const StyledCard = styled.div`
   padding: 30px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-top: 5px solid ${(props) => props.$cardColor};
+  overflow: hidden;
+`;
+
+export const TopColor = styled.div`
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: ${(props) => props.$cardColor};
+  border-radius: 30px 30px 0 0;
 `;
 
 export const TextContainer = styled.div`
